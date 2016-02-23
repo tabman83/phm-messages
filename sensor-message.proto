@@ -1,0 +1,7 @@
+message SensorMessage {
+	required int32 timestamp = 1;
+	required string location = 2;
+	optional float temperature = 3;
+	optional float humidity = 4;
+	optional float pressure = 5;
+}
