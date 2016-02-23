@@ -1,5 +1,5 @@
 message SensorMessage {
-	required int64 timestamp = 1;
+	required uint64 timestamp = 1;
 	required string location = 2;
 	optional float temperature = 3;
 	optional float humidity = 4;
